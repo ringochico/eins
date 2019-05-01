@@ -1,25 +1,35 @@
-<!-- Navigation -->
-<nav class="main-nav">
-  <ul>
-    <%= link_to "Home", "/index.html"  %>
-    <%= link_to "About", "/about.html"  %>
-    <%= link_to "Crew", "/crew.html"  %>
-    <%= link_to "Contact", "/contact.html"  %>
-  </ul>
-</nav>
-<!-- Contact Wrapper -->
-<body>
-  <form>
-    <div class="form-row">
-      <div class="col">
-        <input type="text" class="form-control" placeholder="First name">
+---
+title: Contact Page
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="main-nav">
+      <ul>
+        <%= link_to "Home", "/index.html"  %>
+        <%= link_to "About", "/about.html"  %>
+        <%= link_to "Crew", "/crew.html"  %>
+        <%= link_to "Contact", "/contact.html"  %>
+      </ul>
+    </nav>
+    <!-- Contact Wrapper -->
+    <form>
+      <div class="form-row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="First name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Last name">
+        </div>
       </div>
-      <div class="col">
-        <input type="text" class="form-control" placeholder="Last name">
-      </div>
-    </div>
-  </form>
-</div>
-<button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 </body>
+</html>
